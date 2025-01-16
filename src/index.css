@@ -4,18 +4,35 @@
 
 /* Global scrollbar styles */
 ::-webkit-scrollbar {
-    @apply w-[1px]
+  @apply w-[4px]
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-white
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary rounded-lg
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary
+}
+
+@keyframes swipeup {
+
+  0%,
+  100% {
+    transform: translateY(-20%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
-  
-  ::-webkit-scrollbar-track {
-    @apply bg-white
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
-  
-  ::-webkit-scrollbar-thumb {
-    @apply bg-secondary rounded-lg
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    @apply bg-primary
-  }
-  
+}
+
+.animate-swipeup {
+  animation: swipeup 1s infinite;
+}

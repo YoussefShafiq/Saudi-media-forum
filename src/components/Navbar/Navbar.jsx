@@ -20,7 +20,7 @@ export default function Navbar() {
                     <h2 className="font-madani ">
                         أخرى
                     </h2>
-                    <ul className='hidden hover:block py-2 group-hover:block absolute bg-white top-0 right-0 translate-y-12 rounded-lg w-52 text-gray-900 text-end'>
+                    <ul className='hidden z-10 hover:block py-2 group-hover:block absolute bg-white top-0 right-0 translate-y-12 rounded-lg w-52 text-gray-900 text-end'>
                         <li className='hover:bg-[#f3f4f6] hover:text-lightgreen transition-all p-1 px-3 cursor-pointer ' >حول العالم</li>
                         <li className='hover:bg-[#f3f4f6] hover:text-lightgreen transition-all p-1 px-3 cursor-pointer '>المركز الإعلامي</li>
                         <li className='hover:bg-[#f3f4f6] hover:text-lightgreen transition-all p-1 px-3 cursor-pointer '>فعاليات السعودية</li>
@@ -31,7 +31,7 @@ export default function Navbar() {
                     <h2 className="font-madani  ">
                         جائزة المنتدى
                     </h2>
-                    <ul className='hidden hover:block py-2 group-hover:block absolute bg-white top-0 right-0 translate-y-12 rounded-lg w-52 text-gray-900 text-end'>
+                    <ul className='hidden z-10 hover:block py-2 group-hover:block absolute bg-white top-0 right-0 translate-y-12 rounded-lg w-52 text-gray-900 text-end'>
                         <li className='hover:bg-[#f3f4f6] hover:text-lightgreen transition-all p-1 px-3 cursor-pointer ' >جائزة المنتدى</li>
                         <li className='hover:bg-[#f3f4f6] hover:text-lightgreen transition-all p-1 px-3 cursor-pointer '>الأسئلة الشائعة عن الجائزة</li>
                     </ul>
@@ -41,7 +41,7 @@ export default function Navbar() {
                     <h2 className="font-madani  ">
                         المعرض
                     </h2>
-                    <ul className='hidden hover:block py-2 group-hover:block absolute bg-white top-0 right-0 translate-y-12 rounded-lg w-52 text-gray-900 text-end'>
+                    <ul className='hidden z-10 hover:block py-2 group-hover:block absolute bg-white top-0 right-0 translate-y-12 rounded-lg w-52 text-gray-900 text-end'>
                         <li className='hover:bg-[#f3f4f6] hover:text-lightgreen transition-all p-1 px-3 cursor-pointer ' >المعرض</li>
                         <li className='hover:bg-[#f3f4f6] hover:text-lightgreen transition-all p-1 px-3 cursor-pointer '>عن المعرض</li>
                         <li className='hover:bg-[#f3f4f6] hover:text-lightgreen transition-all p-1 px-3 cursor-pointer '>جلسات المعرض</li>
@@ -52,7 +52,7 @@ export default function Navbar() {
                     <h2 className="font-madani text-lightgreen hover:text-lightgreen">
                         الرئيسية
                     </h2>
-                    <ul className='hidden hover:block py-2 group-hover:block absolute bg-white top-0 right-0 translate-y-12 rounded-lg w-52 text-gray-900 text-end'>
+                    <ul className='hidden z-10 hover:block py-2 group-hover:block absolute bg-white top-0 right-0 translate-y-12 rounded-lg w-52 text-gray-900 text-end'>
                         <li className='bg-[#f3f4f6] text-lightgreen transition-all p-1 px-3 cursor-pointer' >الرئيسية</li>
                         <li className='hover:bg-[#f3f4f6] hover:text-lightgreen transition-all p-1 px-3 cursor-pointer '>عن المنتدى</li>
                         <li className='hover:bg-[#f3f4f6] hover:text-lightgreen transition-all p-1 px-3 cursor-pointer '>رسالة المنتدى</li>

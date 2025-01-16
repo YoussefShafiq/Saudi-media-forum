@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import './fonts.css'
 import './App.css'
-// import WOW from "wow.js";
-import WOW from '../node_modules/wow.js'
+import WOW from "wow.js";
 import "animate.css";
 import '@fortawesome/fontawesome-free/css/all.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'

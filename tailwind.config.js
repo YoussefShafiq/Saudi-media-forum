@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'arrows-pattern': "url('/src/assets/images/arrows-bg.png')",
+      },
       fontFamily: {
         madani: ['Madani', 'sans-serif'],
       },

@@ -36,13 +36,13 @@ export default function HeroSec() {
                             <FontAwesomeIcon icon={faFacebook} className='cursor-pointer' />
                         </div>
                     </div>
-                    <div className="flex justify-between items-center mt-16 px-20 w-full wow animate__slideInRight">
-                        <div className="flex flex-col items-center justify-center bg-primary bg-opacity-80 w-1/5 h-full py-8 rounded-3xl font-madani text-white">
+                    <div className="flex justify-between items-center mt-16 px-20 w-full">
+                        <div className="flex flex-col items-center justify-center bg-primary bg-opacity-80 w-1/5 h-full py-8 rounded-3xl font-madani text-white wow animate__fadeInLeft animate__delay-1s">
                             <FontAwesomeIcon icon={faLocationDot} className='text-3xl text-lemon mb-3' />
                             <p className="text-xl">19 - 21 فبراير,</p>
                             <p className="">2025</p>
                         </div>
-                        <div className="flex items-center justify-center space-x-8 bg-primary bg-opacity-80 w-1/5 h-full py-11 rounded-3xl font-madani text-white">
+                        <div className="flex items-center justify-center space-x-8 bg-primary bg-opacity-80 w-1/5 h-full py-11 rounded-3xl font-madani text-white wow animate__fadeInDown animate__delay-1s">
                             <div className="flex flex-col justify-center items-center ">
                                 <div className="text-3xl font-extrabold ">44</div>
                                 <div className="text-xl">يوم</div>
@@ -55,7 +55,7 @@ export default function HeroSec() {
                                 <div className="text-xl">ساعة</div>
                             </div>
                         </div>
-                        <div className="flex flex-col items-center justify-center bg-primary bg-opacity-80 w-1/5 h-full py-8 rounded-3xl font-madani text-white">
+                        <div className="flex flex-col items-center justify-center bg-primary bg-opacity-80 w-1/5 h-full py-8 rounded-3xl font-madani text-white wow animate__fadeInRight animate__delay-1s">
                             <FontAwesomeIcon icon={faClock} className='text-3xl text-lemon mb-3' />
                             <p className="text-xl">الرياض,</p>
                             <p className="">المملكة العربية السعودية</p>
